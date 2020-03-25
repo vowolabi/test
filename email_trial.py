@@ -44,5 +44,5 @@ print(mail_list)
 for recipients in mail_list:
     send_email(recipients, 'my world', 'its big', 'EMAIL_ADD', 'EMAIL_PASS', attachment_path="C:/Users/Alome"
                                                                                              "/PycharmProjects/Emails"
-                                                                                             "/dagegen.csv")
+                                                                                             "/dagegen.PNG")
     sleep(30)
